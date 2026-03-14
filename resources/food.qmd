@@ -3,7 +3,7 @@ title: "Dónde comprar alimentos"
 ---
 
 ::: {.page-intro}
-<i class="bi bi-cart4"></i> Guía completa de tiendas online, supermercados y productos bajos en proteínas para familias con enfermedades metabólicas.
+<i class="bi bi-cart4"></i> Guía de tiendas online, supermercados y productos bajos en proteínas para familias con enfermedades metabólicas.
 :::
 
 ## Tiendas online especializadas

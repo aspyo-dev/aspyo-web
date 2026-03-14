@@ -505,7 +505,7 @@ html {
 // === Quick links section on homepage ===
 .quick-links {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.7rem;
   margin: 1rem 0;
 }
