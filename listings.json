@@ -1,14 +1,9 @@
 [
   {
-    "listing": "/news/index.html",
+    "listing": "/noticias/index.html",
     "items": [
-      "/news/posts/bienvenida.html"
-    ]
-  },
-  {
-    "listing": "/events/index.html",
-    "items": [
-      "/events/posts/ejemplo-evento.html"
+      "/noticias/posts/ejemplo-evento.html",
+      "/noticias/posts/bienvenida.html"
     ]
   }
 ]
