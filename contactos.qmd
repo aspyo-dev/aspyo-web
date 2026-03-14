@@ -18,7 +18,7 @@ toc: false
 
 ### Página web
 
-[aspyo.org](https://aspyo.org)
+[aspyo.org](https://aspyo-dev.github.io/aspyo-web)
 :::
 
 ::: {.contact-card}
