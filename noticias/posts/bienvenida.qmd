@@ -2,6 +2,7 @@
 title: "Bienvenidos a la nueva web de ASPYO"
 date: "2025-02-08"
 description: "Estrenamos página web para estar más cerca de nuestros pacientes y familias."
+image: ../../images/logo.jpeg
 ---
 
 Nos alegra presentar la nueva página web de ASPYO. Este espacio nace con el objetivo de ser un punto de encuentro para pacientes y familias afectadas por condiciones metabólicas congénitas.

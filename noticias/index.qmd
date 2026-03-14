@@ -7,3 +7,5 @@ listing:
   categories: false
   feed: true
 ---
+
+Últimas novedades, actividades y eventos de ASPYO.
