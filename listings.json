@@ -10,11 +10,5 @@
     "items": [
       "/events/posts/ejemplo-evento.html"
     ]
-  },
-  {
-    "listing": "/world-news/index.html",
-    "items": [
-      "/world-news/posts/2025-02-resumen.html"
-    ]
   }
 ]
