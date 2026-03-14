@@ -14,6 +14,8 @@ Somos una Asociación sin ánimo de lucro fundada en 2016. Nace de la necesidad 
 [<i class="bi bi-heart-fill"></i> Únete a nuestra comunidad](contactos.qmd){.btn-cta}
 :::
 
+::: {.mission-section}
+
 ## Nuestra misión
 
 ::: {.feature-grid}
@@ -40,6 +42,8 @@ Facilitar el acceso a alimentos especiales y recursos médicos para las familias
 ### Visibilidad
 
 Dar visibilidad a las condiciones metabólicas ante instituciones y sociedad
+:::
+
 :::
 
 :::
