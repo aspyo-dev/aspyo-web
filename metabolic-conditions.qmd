@@ -2,6 +2,10 @@
 title: "Sobre las condiciones metabólicas"
 ---
 
+::: {.page-intro}
+<i class="bi bi-heart-pulse"></i> Información general sobre las enfermedades metabólicas congénitas, su diagnóstico, tratamiento y cómo vivir con ellas.
+:::
+
 ## ¿Qué son las enfermedades metabólicas congénitas?
 
 Las enfermedades metabólicas congénitas (también llamadas errores innatos del metabolismo) son un grupo de trastornos genéticos en los que el cuerpo no puede procesar correctamente ciertos nutrientes o sustancias.

@@ -3,12 +3,12 @@ title: "Donar"
 toc: false
 ---
 
-## Apoya a ASPYO
-
+::: {.page-intro}
 Tu donación nos ayuda a seguir apoyando a pacientes y familias con condiciones metabólicas congénitas.
+:::
 
 ::: {.donate-highlight}
-### Haz tu donación
+### <i class="bi bi-heart-fill"></i> Haz tu donación
 
 **Transferencia bancaria:**\
 IBAN: ES00 0000 0000 0000 0000 0000\
@@ -21,15 +21,69 @@ Número: 000 000 000
 
 ## ¿Cómo se usa tu donación?
 
-- **Actividades y eventos** para pacientes y familias
-- **Materiales informativos** sobre condiciones metabólicas
-- **Representación** ante instituciones sanitarias y gubernamentales
-- **Apoyo directo** a familias que lo necesitan
+::: {.feature-grid}
+
+::: {.feature-card}
+[<i class="bi bi-calendar-event"></i>]{.feature-icon}
+
+### Actividades y eventos
+
+Organizamos encuentros y actividades para pacientes y familias
+:::
+
+::: {.feature-card}
+[<i class="bi bi-book"></i>]{.feature-icon}
+
+### Materiales informativos
+
+Creamos recursos sobre condiciones metabólicas
+:::
+
+::: {.feature-card}
+[<i class="bi bi-building"></i>]{.feature-icon}
+
+### Representación
+
+Representamos a las familias ante instituciones sanitarias y gubernamentales
+:::
+
+::: {.feature-card}
+[<i class="bi bi-hand-thumbs-up"></i>]{.feature-icon}
+
+### Apoyo directo
+
+Ayudamos directamente a familias que lo necesitan
+:::
+
+:::
 
 ## Otras formas de colaborar
 
-- **Hazte socio/a** — Contacta con nosotros en aspyoandalucia.oriental@gmail.com
-- **Voluntariado** — Siempre necesitamos manos amigas
-- **Difusión** — Comparte nuestra labor en redes sociales
+::: {.help-grid}
 
-Gracias por tu generosidad.
+::: {.help-card}
+[<i class="bi bi-person-plus-fill"></i>]{.help-icon}
+**Hazte socio/a**
+
+Contacta con nosotros en aspyoandalucia.oriental@gmail.com
+:::
+
+::: {.help-card}
+[<i class="bi bi-hands-up"></i>]{.help-icon}
+**Voluntariado**
+
+Siempre necesitamos manos amigas
+:::
+
+::: {.help-card}
+[<i class="bi bi-share-fill"></i>]{.help-icon}
+**Difusión**
+
+Comparte nuestra labor en redes sociales
+:::
+
+:::
+
+---
+
+*Gracias por tu generosidad.*

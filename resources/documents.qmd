@@ -2,21 +2,18 @@
 title: "Documentos útiles"
 ---
 
-## Guías para pacientes
-
-- [Guía de alimentación para PKU](#) *(próximamente)*
-- [Guía de alimentación para tirosinemia](#) *(próximamente)*
-- [Derechos del paciente metabólico](#) *(próximamente)*
-
-## Formularios
-
-- [Solicitud de alta como socio/a](#) *(próximamente)*
-- [Formulario de contacto](#) *(próximamente)*
+::: {.page-intro}
+<i class="bi bi-file-earmark-text"></i> Recopilación de documentos institucionales, materiales informativos y enlaces de interés para pacientes y familias.
+:::
 
 ## Documentos institucionales
 
 - [Estatutos de ASPYO](#) *(próximamente)*
-- [Memoria anual](#) *(próximamente)*
+
+## Documentos de interés para pacientes y familiares para la comunicación con personas que no conocen la enfermedad
+- [Triptico informativo para pacientes y familiares](#) *(próximamente)*
+- [Comunicación para comedores escolares](#) *(próximamente)*
+- [Comunicación para restaurantes](#) *(próximamente)*
 
 ## Enlaces de interés
 

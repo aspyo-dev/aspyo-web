@@ -4,31 +4,64 @@ subtitle: "PKU y trastornos metabólicos · Andalucía Oriental"
 toc: false
 ---
 
-::: {.hero-section}
+::: hero-section
 ![](images/logo.jpeg)
 
 # Bienvenidos a ASPYO
 
-Somos una Asociación sin ánimo de lucro fundada oficialmente el 08/05/2016, inscrita en el Ministerio del Interior el 18/10/2016.
+Somos una Asociación sin ánimo de lucro fundada en 2016. Nace de la necesidad de dar mayor calidad de vida a nuestros hijos con diferentes enfermedades metabólicas. La constituyen padres y madres que actúan como grupo de apoyo y comparten sus experiencias.
 
-Nace de la necesidad de dar mayor calidad a nuestros hijos con diferentes enfermedades metabólicas. La constituyen padres/madres que actúan como grupo de apoyo y que comparten sus experiencias.
+[<i class="bi bi-heart-fill"></i> Únete a nuestra comunidad](contactos.qmd){.btn-cta}
 :::
 
 ## Nuestra misión
 
-Acompañar y representar a los pacientes con enfermedades metabólicas congénitas, promoviendo:
+::: {.feature-grid}
 
-- **Información** actualizada sobre tratamientos e investigación
-- **Acceso** a alimentos especiales y recursos médicos
-- **Comunidad** entre pacientes y familias
-- **Visibilidad** de las condiciones metabólicas ante instituciones y sociedad
+::: {.feature-card}
+[<i class="bi bi-people-fill"></i>]{.feature-icon}
 
-## Últimas novedades
+### Comunidad
 
-Consulta nuestras secciones de [Noticias de ASPYO](news/index.qmd) y [Actualidad Científica](world-news/index.qmd) para mantenerte informado.
+Crear red de apoyo entre pacientes y familias que comparten experiencias similares
+:::
+
+::: {.feature-card}
+[<i class="bi bi-basket3"></i>]{.feature-icon}
+
+### Acceso
+
+Facilitar el acceso a alimentos especiales y recursos médicos para las familias
+:::
+
+::: {.feature-card}
+[<i class="bi bi-megaphone-fill"></i>]{.feature-icon}
+
+### Visibilidad
+
+Dar visibilidad a las condiciones metabólicas ante instituciones y sociedad
+:::
+
+:::
+
+## Explora
+
+::: {.quick-links}
+
+[<i class="bi bi-heart-pulse"></i> Condiciones metabólicas](metabolic-conditions.qmd){.quick-link}
+
+[<i class="bi bi-cart4"></i> Dónde comprar alimentos](resources/food.qmd){.quick-link}
+
+[<i class="bi bi-egg-fried"></i> Recetas bajas en proteínas](resources/cooking.qmd){.quick-link}
+
+[<i class="bi bi-shield-check"></i> Derechos y leyes](resources/derechos.qmd){.quick-link}
+
+[<i class="bi bi-file-earmark-text"></i> Documentos útiles](resources/documents.qmd){.quick-link}
+
+[<i class="bi bi-gift"></i> Donar](donate.qmd){.quick-link}
+
+:::
 
 ## Contacto
 
-Si tienes preguntas o quieres unirte a la asociación, escríbenos a **aspyoandalucia.oriental@gmail.com**.
-
-[ASPYO en Facebook](https://www.facebook.com/aspyo.oficial){.btn .btn-outline-primary}
+Si tienes preguntas o quieres unirte a la asociación, visita nuestra página de [Contactos](contactos.qmd) o escríbenos a **aspyoandalucia.oriental@gmail.com**.

@@ -1,64 +1,498 @@
 /*-- scss:defaults --*/
 
-// Match ASPYO logo green
-$green: #4CAF50;
-$primary: #2c8c3c;
-$link-color: $primary;
+// === Color Palette ===
+$green-dark: #1a6b2a;
+$green-mid: #2c8c3c;
+$green-light: #4CAF50;
+$green-pale: #e8f5e9;
+$accent-warm: #ff8f00; // amber accent for CTAs
+$accent-warm-dark: #e67e00;
+$text-dark: #1a1a2e;
+$text-muted: #5a5a6e;
+$bg-light: #f8faf8;
+$bg-alt: #f0f4f0;
+$white: #ffffff;
+
+$primary: $green-mid;
+$link-color: $green-dark;
+
+// === Typography ===
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$headings-font-family: 'Nunito', 'Inter', sans-serif;
+$headings-font-weight: 700;
+$font-size-base: 1.05rem;
 
 /*-- scss:rules --*/
 
-// Navbar brand styling
-.navbar-brand img {
-  max-height: 45px;
+// === Google Fonts Import ===
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap');
+
+// === Bootstrap Icons ===
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+// === Global ===
+body {
+  color: $text-dark;
+  line-height: 1.7;
 }
 
-// Hero section on homepage
+h1, h2, h3, h4 {
+  color: $text-dark;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $green-pale;
+}
+
+// === Navbar ===
+.navbar {
+  padding: 0.6rem 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, $green-dark 0%, $green-mid 60%, $green-light 100%) !important;
+}
+
+.navbar-brand img {
+  max-height: 45px;
+  border-radius: 6px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition: opacity 0.2s;
+}
+
+.navbar .nav-link:hover {
+  opacity: 0.85;
+}
+
+// === Hero Section ===
 .hero-section {
+  background: linear-gradient(135deg, $green-dark 0%, $green-mid 50%, $green-light 100%);
+  color: $white;
   text-align: center;
-  padding: 3rem 1rem;
-  margin-bottom: 2rem;
+  padding: 4rem 2rem 3.5rem;
+  margin: -1rem -1rem 2.5rem -1rem;
+  border-radius: 0 0 24px 24px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
+    width: 350px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 50%;
+  }
 }
 
 .hero-section img {
-  max-height: 200px;
+  max-height: 140px;
   margin-bottom: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
 }
 
-// Card styling for listings
-.quarto-listing {
-  margin-top: 1rem;
+.hero-section h1 {
+  color: $white;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+  position: relative;
+  z-index: 1;
+  border: none;
+  padding: 0;
 }
 
-// Donate button highlight
-.donate-highlight {
-  background-color: $primary;
-  color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  text-align: center;
+.hero-section p {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.15rem;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+// === CTA Button ===
+.btn-cta {
+  display: inline-block;
+  background: $accent-warm;
+  color: $white !important;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba($accent-warm, 0.35);
+  position: relative;
+  z-index: 1;
+  margin-top: 1.5rem;
+
+  &:hover {
+    background: $accent-warm-dark;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba($accent-warm, 0.45);
+    color: $white !important;
+    text-decoration: none;
+  }
+}
+
+// === Feature Cards (homepage mission) ===
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
   margin: 2rem 0;
 }
 
-.donate-highlight a {
-  color: white;
-  font-weight: bold;
-  text-decoration: underline;
+.feature-card {
+  background: $white;
+  border: 1px solid rgba($green-mid, 0.12);
+  border-radius: 12px;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-color: rgba($green-mid, 0.25);
+  }
+
+  .feature-icon {
+    font-size: 2.2rem;
+    color: $green-mid;
+    margin-bottom: 0.8rem;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: $text-dark;
+  }
+
+  p {
+    font-size: 0.93rem;
+    color: $text-muted;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
 }
 
-// Resource cards
+// === Resource Cards ===
 .resource-card {
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1rem;
-  transition: box-shadow 0.2s;
+  transition: all 0.3s ease;
+  background: $white;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    border-color: rgba($green-mid, 0.2);
+  }
 }
 
-.resource-card:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+// === Contact Cards ===
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
 
-// Footer
+.contact-card {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+    color: $green-mid;
+    margin-bottom: 0.8rem;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    border: none;
+    padding: 0;
+  }
+
+  a {
+    color: $green-dark;
+    font-weight: 500;
+  }
+}
+
+// === Donate Section ===
+.donate-highlight {
+  background: linear-gradient(135deg, $green-dark, $green-mid);
+  color: $white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  margin: 2rem 0;
+  box-shadow: 0 8px 30px rgba($green-dark, 0.2);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+  }
+
+  h3 {
+    color: $white;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+  }
+
+  a {
+    color: $accent-warm;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+// === Ways to help cards ===
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.help-card {
+  background: $bg-light;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: rgba($green-mid, 0.2);
+    background: $white;
+    transform: translateY(-2px);
+  }
+
+  .help-icon {
+    font-size: 1.8rem;
+    color: $green-mid;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $text-muted;
+    margin: 0;
+  }
+}
+
+// === Section backgrounds ===
+.section-alt {
+  background: $bg-light;
+  margin: 0 -1rem;
+  padding: 2rem 1rem;
+  border-radius: 16px;
+}
+
+// === Callout improvements ===
+.callout {
+  border-radius: 12px !important;
+  border-left-width: 4px !important;
+}
+
+// === Tables ===
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background: $green-pale;
+  color: $text-dark;
+  font-weight: 600;
+  border-bottom: 2px solid $green-mid;
+}
+
+// === Links ===
+a {
+  transition: color 0.2s ease;
+}
+
+#quarto-content a:not(.nav-link):not(.btn-cta):not(.donate-highlight a) {
+  text-decoration-color: rgba($green-mid, 0.3);
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration-color: $green-mid;
+  }
+}
+
+// === Footer ===
 .nav-footer {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(135deg, $green-dark 0%, $green-mid 60%, $green-light 100%) !important;
+  display: block !important;
+  text-align: center;
+}
+
+.nav-footer-left,
+.nav-footer-right {
+  display: none !important;
+}
+
+.nav-footer-center {
+  max-width: 100% !important;
+  flex: none !important;
+  width: 100% !important;
+}
+
+.nav-footer a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+}
+
+// === Smooth scroll ===
+html {
+  scroll-behavior: smooth;
+}
+
+// === Info banner for pages ===
+.page-intro {
+  background: $green-pale;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border-left: 4px solid $green-mid;
+
+  p {
+    margin: 0;
+    color: $text-dark;
+  }
+}
+
+// === Social icons row ===
+.social-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: $green-pale;
+    color: $green-mid;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+      background: $green-mid;
+      color: $white;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// === Quick links section on homepage ===
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.quick-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: $text-dark !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: rgba($green-mid, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+    color: $green-dark !important;
+  }
+
+  i {
+    font-size: 1.4rem;
+    color: $green-mid;
+  }
 }

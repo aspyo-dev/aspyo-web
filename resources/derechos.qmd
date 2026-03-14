@@ -2,7 +2,9 @@
 title: "Derechos de las Familias con Enfermedades Metabólicas en España y Andalucía"
 ---
 
-> Guía práctica de las leyes que protegen a personas con trastornos metabólicos congénitos (fenilcetonuria, tirosinemia, galactosemia, acidemias orgánicas, etc.) y a sus familias. Actualizada en febrero de 2026.
+::: {.page-intro}
+<i class="bi bi-shield-check"></i> Guía práctica de las leyes que protegen a personas con trastornos metabólicos congénitos (fenilcetonuria, tirosinemia, galactosemia, acidemias orgánicas, etc.) y a sus familias. Actualizada en febrero de 2026.
+:::
 
 ---
 

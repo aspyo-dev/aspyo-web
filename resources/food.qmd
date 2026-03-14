@@ -2,6 +2,10 @@
 title: "Dónde comprar alimentos"
 ---
 
+::: {.page-intro}
+<i class="bi bi-cart4"></i> Guía completa de tiendas online, supermercados y productos bajos en proteínas para familias con enfermedades metabólicas.
+:::
+
 ## Tiendas online especializadas
 
 - **[alecaran.com](https://alecaran.com)** — Alecarán Metabólicos. Empresa de La Roda, Albacete, dedicada a la elaboración propia de productos frescos bajos en proteínas. También venden otros productos de otras marcas como harina, pasta, quesos veganos, pan, postres… con marcas como Loprofin, Sanavi, Aproten, Mevalia, …

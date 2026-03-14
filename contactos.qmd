@@ -1,0 +1,52 @@
+---
+title: "Contactos"
+toc: false
+---
+
+::: {.contact-grid}
+
+::: {.contact-card}
+[<i class="bi bi-envelope-fill"></i>]{.contact-icon}
+
+### Correo electrónico
+
+[aspyoandalucia.oriental@gmail.com](mailto:aspyoandalucia.oriental@gmail.com)
+:::
+
+::: {.contact-card}
+[<i class="bi bi-globe2"></i>]{.contact-icon}
+
+### Página web
+
+[aspyo.org](https://aspyo.org)
+:::
+
+::: {.contact-card}
+[<i class="bi bi-facebook"></i>]{.contact-icon}
+
+### Facebook
+
+[ASPYO](https://m.facebook.com/100089293880067/)
+:::
+
+::: {.contact-card}
+[<i class="bi bi-instagram"></i>]{.contact-icon}
+
+### Instagram
+
+[asp.yo](https://www.instagram.com/invites/contact/?i=1hrsnfnuwdfwn&utm_content=qhcftot)
+:::
+
+::: {.contact-card}
+[<i class="bi bi-twitter-x"></i>]{.contact-icon}
+
+### Twitter
+
+[ASPYO_Tweet](https://twitter.com/ASPYO_tweet)
+:::
+
+:::
+
+---
+
+*¡Síguenos en redes sociales para estar al día de todas nuestras actividades y novedades!*

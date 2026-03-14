@@ -16,8 +16,6 @@ website:
         href: news/index.qmd
       - text: "Eventos"
         href: events/index.qmd
-      - text: "Actualidad Científica"
-        href: world-news/index.qmd
       - text: "Recursos"
         menu:
           - text: "Dónde comprar alimentos"
@@ -28,11 +26,17 @@ website:
             href: resources/derechos.qmd
           - text: "Documentos útiles"
             href: resources/documents.qmd
+      - text: "Contactos"
+        href: contactos.qmd
       - text: "Donar"
         href: donate.qmd
   page-footer:
     center: |
-      ASPYO - Asociación de fenilcetonuria y otros trastornos metabólicos de andalucía oriental | aspyoandalucia.oriental@gmail.com | [Facebook](https://www.facebook.com/aspyo.oficial)
+      **ASPYO** · Asociación de fenilcetonuria y otros trastornos metabólicos de Andalucía Oriental
+
+      <i class="bi bi-envelope"></i> aspyoandalucia.oriental@gmail.com · <i class="bi bi-facebook"></i> [Facebook](https://www.facebook.com/aspyo.oficial) · <i class="bi bi-instagram"></i> [Instagram](https://www.instagram.com/asp.yo)
+
+      &copy; 2016–2026 ASPYO
     background: primary
 
 format:

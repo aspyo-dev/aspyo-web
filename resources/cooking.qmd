@@ -2,7 +2,9 @@
 title: "Cocinar bajo en proteínas"
 ---
 
-Cocinar con restricción de proteínas no tiene por qué ser aburrido ni complicado. Aquí encontrarás recursos, blogs e ideas de nuestra comunidad para preparar platos deliciosos y aptos para dietas bajas en proteínas.
+::: {.page-intro}
+<i class="bi bi-egg-fried"></i> Cocinar con restricción de proteínas no tiene por qué ser aburrido ni complicado. Aquí encontrarás recursos, blogs e ideas de nuestra comunidad para preparar platos deliciosos y aptos para dietas bajas en proteínas.
+:::
 
 ## Blog recomendado: Sonia Recetas PKU
 
