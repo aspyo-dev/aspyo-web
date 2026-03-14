@@ -12,10 +12,8 @@ website:
         href: index.qmd
       - text: "Condiciones Metabólicas"
         href: metabolic-conditions.qmd
-      - text: "Noticias de ASPYO"
-        href: news/index.qmd
-      - text: "Eventos"
-        href: events/index.qmd
+      - text: "Noticias y Eventos"
+        href: noticias/index.qmd
       - text: "Recursos"
         menu:
           - text: "Dónde comprar alimentos"

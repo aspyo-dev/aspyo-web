@@ -11,12 +11,14 @@ Tu donación nos ayuda a seguir apoyando a pacientes y familias con condiciones 
 ### <i class="bi bi-heart-fill"></i> Haz tu donación
 
 **Transferencia bancaria:**\
-IBAN: ES00 0000 0000 0000 0000 0000\
-Titular: ASPYO\
-Concepto: Donación
+IBAN: ES46 2103 0132 3100 3001 4011\
+Titular: Asociación de Fenilcetonuria y Otros Trastornos Metabólicos\
+NIF: G93519205\
+29018 Málaga
 
-**Bizum:**\
-Número: 000 000 000
+**Teléfonos de contacto:**\
+Lidia Maljarenko: 666 450 554\
+Selene Gallo: 640 684 973
 :::
 
 ## ¿Cómo se usa tu donación?
@@ -65,11 +67,11 @@ Ayudamos directamente a familias que lo necesitan
 [<i class="bi bi-person-plus-fill"></i>]{.help-icon}
 **Hazte socio/a**
 
-Contacta con nosotros en aspyoandalucia.oriental@gmail.com
+[Contáctanos](contactos.qmd) para saber cómo
 :::
 
 ::: {.help-card}
-[<i class="bi bi-hands-up"></i>]{.help-icon}
+[<i class="bi bi-people"></i>]{.help-icon}
 **Voluntariado**
 
 Siempre necesitamos manos amigas
