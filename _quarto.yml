@@ -10,6 +10,8 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
+      - text: "Quién Somos"
+        href: quien-somos.qmd
       - text: "Condiciones Metabólicas"
         href: metabolic-conditions.qmd
       - text: "Noticias y Eventos"

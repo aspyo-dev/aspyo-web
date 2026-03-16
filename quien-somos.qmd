@@ -1,0 +1,29 @@
+---
+title: "Quién Somos"
+toc: false
+---
+
+::: {.about-section}
+
+## Asociación de Fenilcetonuria y otros Trastornos Metabólicos de Andalucía Oriental
+
+Somos una **Asociación sin ánimo de lucro** fundada oficialmente el **08/05/2016**.
+
+Inscrita en el **Ministerio del Interior** el **18/10/2016**.
+
+Nace de la necesidad de dar mayor calidad de vida a nuestros hijos con diferentes enfermedades metabólicas. La constituyen padres y madres que actúan como grupo de apoyo y comparten sus experiencias.
+
+## Nuestra trayectoria
+
+A lo largo de estos años hemos:
+
+- **Conectado familias** que comparten experiencias y se apoyan mutuamente
+- **Organizado convivencias** para fortalecer los lazos entre las familias de la comunidad metabólica
+- **Colaborado estrechamente con el Hospital Materno Infantil** y los profesionales de referencia en causas importantes para la comunidad metabólica
+
+Apoyamos activamente al hospital y a los pediatras de referencia en la organización de:
+
+- **Jornada Asombrosos** — encuentro anual de información entre familias y dietistas-nutricionistas
+- **Campamento de verano** — actividad para los niños y niñas de la asociación
+
+:::
