@@ -536,6 +536,358 @@ html {
   }
 }
 
+// === Hide default title block when custom header is used ===
+#title-block-header:has(+ .page-header) {
+  display: none;
+}
+
+// === Page Header (inner pages) ===
+.page-header {
+  text-align: center;
+  padding: 2rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+
+  i {
+    font-size: 2.4rem;
+    color: $green-mid;
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: $text-dark;
+    border-bottom: none;
+    margin: 0 0 0.4rem;
+    padding: 0;
+  }
+
+  p {
+    color: $text-muted;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  // decorative underline
+  &::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, $green-mid, $green-light);
+    border-radius: 3px;
+    margin: 1.2rem auto 0;
+  }
+}
+
+// === Info Card Grid (reusable for any content) ===
+.info-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.info-card {
+  background: $white;
+  border: 1px solid rgba($green-mid, 0.12);
+  border-radius: 16px;
+  padding: 1.8rem 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-color: rgba($green-mid, 0.25);
+  }
+
+  .info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, $green-pale, rgba($green-mid, 0.15));
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: $green-dark;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: $text-dark;
+    border: none;
+    padding: 0;
+  }
+
+  p, ul {
+    font-size: 0.93rem;
+    color: $text-muted;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    margin-top: 0.3rem;
+  }
+}
+
+// === Accent Box (highlight block) ===
+.accent-box {
+  background: linear-gradient(135deg, $green-pale, rgba($green-mid, 0.08));
+  border-left: 4px solid $green-mid;
+  border-radius: 12px;
+  padding: 1.8rem;
+  margin: 2rem 0;
+
+  h3 {
+    color: $green-dark;
+    font-size: 1.15rem;
+    margin-top: 0;
+    border: none;
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: $text-dark;
+  }
+}
+
+// === Section Card (alternating content sections) ===
+.section-card {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+
+  h2 {
+    margin-top: 0;
+    border-bottom: 2px solid $green-pale;
+  }
+
+  h3 {
+    border: none;
+    padding: 0;
+  }
+}
+
+.section-card-alt {
+  background: $bg-light;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+
+  h2 {
+    margin-top: 0;
+    border-bottom: 2px solid rgba($green-mid, 0.15);
+  }
+
+  h3 {
+    border: none;
+    padding: 0;
+  }
+}
+
+// === Legal Callout ===
+.legal-ref {
+  background: $bg-alt;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1rem;
+  font-size: 0.88rem;
+  color: $text-muted;
+
+  strong {
+    color: $text-dark;
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+// === Store Card ===
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.store-card {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    border-color: rgba($green-mid, 0.2);
+  }
+
+  h4 {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+    color: $green-dark;
+
+    a {
+      color: $green-dark;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $text-muted;
+    margin-bottom: 0;
+    line-height: 1.55;
+  }
+}
+
+// === Supermarket Section ===
+.supermarket-section {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 1.8rem;
+  margin: 1.2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+
+  h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.15rem;
+    color: $green-dark;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid $green-pale;
+  }
+}
+
+// === Featured Resource ===
+.featured-resource {
+  background: linear-gradient(135deg, $green-pale, rgba($green-mid, 0.06));
+  border: 2px solid rgba($green-mid, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    right: -15%;
+    width: 200px;
+    height: 200px;
+    background: rgba($green-mid, 0.06);
+    border-radius: 50%;
+  }
+
+  h3 {
+    color: $green-dark;
+    font-size: 1.2rem;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+    color: $text-dark;
+  }
+
+  a {
+    font-weight: 600;
+  }
+}
+
+// === Link Card Grid (for external resources) ===
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.link-card {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 1.4rem;
+  text-align: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-color: rgba($green-mid, 0.25);
+  }
+
+  .link-icon {
+    font-size: 1.8rem;
+    color: $green-mid;
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: $text-dark;
+  }
+
+  p {
+    font-size: 0.85rem;
+    color: $text-muted;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+    &:hover {
+      color: $green-dark;
+    }
+  }
+}
+
+// === Summary Table Wrapper ===
+.summary-table-wrapper {
+  background: $white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba($green-mid, 0.12);
+  overflow-x: auto;
+}
+
 // === Mobile Responsive ===
 @media (max-width: 768px) {
   // Hero: smaller text and padding
@@ -644,6 +996,47 @@ html {
     margin-top: 1.8rem;
     font-size: 1.4rem;
   }
+
+  // Page header
+  .page-header {
+    padding: 1.5rem 1rem 1rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  // Info cards
+  .info-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .info-card {
+    padding: 1.4rem 1.2rem;
+  }
+
+  // Section cards
+  .section-card,
+  .section-card-alt {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  // Store grid
+  .store-grid {
+    grid-template-columns: 1fr;
+  }
+
+  // Supermarket sections
+  .supermarket-section {
+    padding: 1.3rem;
+  }
+
+  // Link card grid
+  .link-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
 }
 
 @media (max-width: 480px) {
@@ -687,5 +1080,43 @@ html {
   // Help grid: single column
   .help-grid {
     grid-template-columns: 1fr;
+  }
+
+  // Page header
+  .page-header {
+    padding: 1.2rem 0.8rem 0.8rem;
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    i {
+      font-size: 2rem;
+    }
+  }
+
+  // Info cards: single column
+  .info-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  // Section cards: less padding
+  .section-card,
+  .section-card-alt {
+    padding: 1.2rem;
+  }
+
+  // Link cards: single column
+  .link-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  // Featured resource
+  .featured-resource {
+    padding: 1.5rem;
+
+    &::before {
+      display: none;
+    }
   }
 }

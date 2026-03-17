@@ -2,25 +2,109 @@
 title: "Documentos útiles"
 ---
 
-::: {.page-intro}
-<i class="bi bi-file-earmark-text"></i> Recopilación de documentos institucionales, materiales informativos y enlaces de interés para pacientes y familias.
+::: {.page-header}
+<i class="bi bi-file-earmark-text"></i>
+
+## Documentos útiles
+
+Recopilación de documentos institucionales, materiales informativos y enlaces de interés para pacientes y familias.
 :::
 
 ## Documentos institucionales
 
-- Estatutos de ASPYO — escríbenos a aspyoandalucia.oriental@gmail.com para solicitar una copia
+::: {.info-card-grid}
 
-## Documentos de interés para pacientes y familiares para la gestión de su vida diaria
-- [Tríptico informativo para pacientes y familiares](docs/TRÍPTICO 2023.pdf)
-- [Comunicación para comedores escolares](#) *(próximamente)*
-- [Tarjeta de información metabólica para hostelería](docs/tarjeta-informacion-hosteleria.jpeg)
+::: {.info-card}
+[<i class="bi bi-file-earmark-ruled"></i>]{.info-icon}
+
+### Estatutos de ASPYO
+
+Escríbenos a aspyoandalucia.oriental@gmail.com para solicitar una copia.
+:::
+
+:::
+
+## Documentos para pacientes y familiares
+
+::: {.info-card-grid}
+
+::: {.info-card}
+[<i class="bi bi-file-pdf"></i>]{.info-icon}
+
+### Tríptico informativo
+
+Material informativo para pacientes y familiares.
+
+[Descargar tríptico](docs/TRÍPTICO 2023.pdf)
+:::
+
+::: {.info-card}
+[<i class="bi bi-file-earmark-text"></i>]{.info-icon}
+
+### Comunicación para comedores escolares
+
+Documento para facilitar la gestión del menú en el colegio.
+
+*(próximamente)*
+:::
+
+::: {.info-card}
+[<i class="bi bi-credit-card-2-front"></i>]{.info-icon}
+
+### Tarjeta de información metabólica
+
+Tarjeta para informar en restaurantes y establecimientos de hostelería.
+
+[Ver tarjeta](docs/tarjeta-informacion-hosteleria.jpeg)
+:::
+
+:::
 
 ## Enlaces de interés
 
-- [EURORDIS - Rare Diseases Europe](https://www.eurordis.org/)
-- [FEDER - Federación Española de Enfermedades Raras](https://enfermedades-raras.org/)
-- [Orphanet - Portal de enfermedades raras](https://www.orpha.net/)
-- [SIEM - Sociedad Española de Errores Innatos del Metabolismo](https://www.ae3com.eu/)
+::: {.link-card-grid}
+
+::: {.link-card}
+[<i class="bi bi-globe-europe-africa"></i>]{.link-icon}
+
+#### EURORDIS
+
+Rare Diseases Europe
+
+[eurordis.org](https://www.eurordis.org/)
+:::
+
+::: {.link-card}
+[<i class="bi bi-heart"></i>]{.link-icon}
+
+#### FEDER
+
+Federación Española de Enfermedades Raras
+
+[enfermedades-raras.org](https://enfermedades-raras.org/)
+:::
+
+::: {.link-card}
+[<i class="bi bi-globe"></i>]{.link-icon}
+
+#### Orphanet
+
+Portal de enfermedades raras
+
+[orpha.net](https://www.orpha.net/)
+:::
+
+::: {.link-card}
+[<i class="bi bi-mortarboard"></i>]{.link-icon}
+
+#### SIEM
+
+Sociedad Española de Errores Innatos del Metabolismo
+
+[ae3com.eu](https://www.ae3com.eu/)
+:::
+
+:::
 
 ---
 

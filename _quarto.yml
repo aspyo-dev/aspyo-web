@@ -6,10 +6,9 @@ website:
   favicon: images/logo.jpeg
   navbar:
     logo: images/logo.jpeg
+    title: false
     background: primary
     left:
-      - text: "Inicio"
-        href: index.qmd
       - text: "Quién Somos"
         href: quien-somos.qmd
       - text: "Condiciones Metabólicas"

@@ -2,8 +2,12 @@
 title: "Sobre las condiciones metabólicas"
 ---
 
-::: {.page-intro}
-<i class="bi bi-heart-pulse"></i> Información general sobre las enfermedades metabólicas congénitas, su diagnóstico, tratamiento y cómo vivir con ellas.
+::: {.page-header}
+<i class="bi bi-heart-pulse"></i>
+
+## Condiciones metabólicas congénitas
+
+Información general sobre las enfermedades metabólicas congénitas, su diagnóstico, tratamiento y cómo vivir con ellas.
 :::
 
 ## ¿Qué son las enfermedades metabólicas congénitas?
@@ -14,28 +18,104 @@ Estas condiciones se detectan habitualmente mediante el **cribado neonatal** (pr
 
 ## Condiciones que abarcamos
 
-- **Fenilcetonuria (PKU)** — Incapacidad para metabolizar el aminoácido fenilalanina
-- **Tirosinemia** — Alteración del metabolismo de la tirosina
-- **Acidemias orgánicas** — Grupo de trastornos del metabolismo de aminoácidos
-- **Defectos del ciclo de la urea** — Dificultad para eliminar el amoníaco del cuerpo
-- **Otros errores innatos del metabolismo**
+::: {.info-card-grid}
+
+::: {.info-card}
+[<i class="bi bi-diagram-3"></i>]{.info-icon}
+
+### Fenilcetonuria (PKU)
+
+Incapacidad para metabolizar el aminoácido fenilalanina.
+:::
+
+::: {.info-card}
+[<i class="bi bi-droplet"></i>]{.info-icon}
+
+### Tirosinemia
+
+Alteración del metabolismo de la tirosina.
+:::
+
+::: {.info-card}
+[<i class="bi bi-moisture"></i>]{.info-icon}
+
+### Acidemias orgánicas
+
+Grupo de trastornos del metabolismo de aminoácidos.
+:::
+
+::: {.info-card}
+[<i class="bi bi-recycle"></i>]{.info-icon}
+
+### Defectos del ciclo de la urea
+
+Dificultad para eliminar el amoníaco del cuerpo.
+:::
+
+::: {.info-card}
+[<i class="bi bi-puzzle"></i>]{.info-icon}
+
+### Otros errores innatos
+
+Otros errores innatos del metabolismo que requieren seguimiento especializado.
+:::
+
+:::
 
 ## Diagnóstico y tratamiento
 
 El diagnóstico temprano es fundamental. La mayoría de estas condiciones se gestionan mediante:
 
-- **Dieta especial** restringida en ciertos aminoácidos o nutrientes
-- **Alimentos médicos especiales** (fórmulas metabólicas)
-- **Seguimiento médico** regular con equipos especializados
-- **Medicación específica** según la condición
+::: {.info-card-grid}
 
-## Vivir con una condición metabólica
+::: {.info-card}
+[<i class="bi bi-egg-fried"></i>]{.info-icon}
+
+### Dieta especial
+
+Restringida en ciertos aminoácidos o nutrientes según la condición.
+:::
+
+::: {.info-card}
+[<i class="bi bi-cup-straw"></i>]{.info-icon}
+
+### Alimentos médicos especiales
+
+Fórmulas metabólicas diseñadas para cubrir las necesidades nutricionales.
+:::
+
+::: {.info-card}
+[<i class="bi bi-clipboard2-pulse"></i>]{.info-icon}
+
+### Seguimiento médico
+
+Revisiones regulares con equipos especializados en metabolismo.
+:::
+
+::: {.info-card}
+[<i class="bi bi-capsule"></i>]{.info-icon}
+
+### Medicación específica
+
+Tratamiento farmacológico según la condición del paciente.
+:::
+
+:::
+
+::: {.accent-box}
+### <i class="bi bi-emoji-smile"></i> Vivir con una condición metabólica
 
 Vivir con una enfermedad metabólica requiere adaptación, pero con el tratamiento adecuado, los pacientes pueden llevar una vida plena. La comunidad y el apoyo entre familias son esenciales.
 
-Si necesitas orientación, [contacta con nosotros](index.qmd#contacto).
+Si necesitas orientación, [contacta con nosotros](contactos.qmd).
+:::
 
 ## Recursos adicionales
 
-- [Dónde comprar alimentos especiales](resources/food.qmd)
-- [Documentos útiles](resources/documents.qmd)
+::: {.quick-links}
+[<i class="bi bi-cart4"></i> Dónde comprar alimentos especiales](resources/food.qmd){.quick-link}
+
+[<i class="bi bi-file-earmark-text"></i> Documentos útiles](resources/documents.qmd){.quick-link}
+
+[<i class="bi bi-egg-fried"></i> Cocinar bajo en proteínas](resources/cooking.qmd){.quick-link}
+:::

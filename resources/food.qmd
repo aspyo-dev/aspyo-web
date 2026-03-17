@@ -2,22 +2,61 @@
 title: "Dónde comprar alimentos"
 ---
 
-::: {.page-intro}
-<i class="bi bi-cart4"></i> Guía de tiendas online, supermercados y productos bajos en proteínas para familias con enfermedades metabólicas.
+::: {.page-header}
+<i class="bi bi-cart4"></i>
+
+## Dónde comprar alimentos
+
+Guía de tiendas online, supermercados y productos bajos en proteínas para familias con enfermedades metabólicas.
 :::
 
 ## Tiendas online especializadas
 
-- **[alecaran.com](https://alecaran.com)** — Alecarán Metabólicos. Empresa de La Roda, Albacete, dedicada a la elaboración propia de productos frescos bajos en proteínas. También venden otros productos de otras marcas como harina, pasta, quesos veganos, pan, postres… con marcas como Loprofin, Sanavi, Aproten, Mevalia, …
-- **[ecodiet.es](https://ecodiet.es)** — Tienda online de Logroño especializada en la venta de productos sin gluten, sin lactosa, sin huevo… y para dieta PKU o baja en proteínas.
-- **[sanavi.com](https://sanavi.com)** — Sanavi es una fábrica de Granada que tiene una pequeña línea de productos bajos en proteínas: básicamente galletas, harina, pasta y sustituto de leche.
-- **[viata.es](https://viata.es)** — Farmacia online donde se puede encontrar alguna variedad de pasta y harina aproteica, marcas Loprofin y Aproten.
-- **[GHD Fresc](https://www.ghd.es/)** — Página web donde se puede comprar productos veganos refrigerados como quesos Violife, "sin jamón" marca Rollito Vegano con 1,5 gr prot×100g, y pasta aproteica marca Aproten.
-- **[Farmacia Loreto (Italia)](https://farmacialoreto.it/alimenti/alimenti-speciali)** — Farmacia online italiana con amplia variedad de alimentos especiales. Los gastos de envío a España son elevados.
+::: {.store-grid}
+
+::: {.store-card}
+#### [alecaran.com](https://alecaran.com)
+
+Alecarán Metabólicos. Empresa de La Roda, Albacete, dedicada a la elaboración propia de productos frescos bajos en proteínas. También venden otros productos de otras marcas como harina, pasta, quesos veganos, pan, postres… con marcas como Loprofin, Sanavi, Aproten, Mevalia, …
+:::
+
+::: {.store-card}
+#### [ecodiet.es](https://ecodiet.es)
+
+Tienda online de Logroño especializada en la venta de productos sin gluten, sin lactosa, sin huevo… y para dieta PKU o baja en proteínas.
+:::
+
+::: {.store-card}
+#### [sanavi.com](https://sanavi.com)
+
+Sanavi es una fábrica de Granada que tiene una pequeña línea de productos bajos en proteínas: básicamente galletas, harina, pasta y sustituto de leche.
+:::
+
+::: {.store-card}
+#### [viata.es](https://viata.es)
+
+Farmacia online donde se puede encontrar alguna variedad de pasta y harina aproteica, marcas Loprofin y Aproten.
+:::
+
+::: {.store-card}
+#### [GHD Fresc](https://www.ghd.es/)
+
+Página web donde se puede comprar productos veganos refrigerados como quesos Violife, "sin jamón" marca Rollito Vegano con 1,5 gr prot×100g, y pasta aproteica marca Aproten.
+:::
+
+::: {.store-card}
+#### [Farmacia Loreto (Italia)](https://farmacialoreto.it/alimenti/alimenti-speciali)
+
+Farmacia online italiana con amplia variedad de alimentos especiales. Los gastos de envío a España son elevados.
+:::
+
+:::
 
 ## Supermercados
 
-### Carrefour
+::: {.supermarket-section}
+
+### <i class="bi bi-shop"></i> Carrefour
 
 Productos BP (bajos en proteínas) que se pueden encontrar en las neveras y en la zona sin gluten:
 
@@ -38,7 +77,11 @@ Algunos productos sin gluten de interés:
 | Pan de hot dogs Nutri Free (2 und) | 2,2 gr prot ×100g (0,72 gr prot c/u) |
 | Zona Internacional: snacks de yuca y platanitos | (tipo patatas fritas) |
 
-### Dia%
+:::
+
+::: {.supermarket-section}
+
+### <i class="bi bi-shop"></i> Dia%
 
 | Producto | Proteínas |
 |----------|-----------|
@@ -46,11 +89,19 @@ Algunos productos sin gluten de interés:
 | Pan rebanadas Proceli (4 und) sin gluten | 1,4 gr prot ×100g (0,56 gr prot c/u) |
 | Postres veganos VEGEDIA | (no todos los supermercados tienen esta línea vegana) |
 
-### Lidl
+:::
+
+::: {.supermarket-section}
+
+### <i class="bi bi-shop"></i> Lidl
 
 - **VEMONDO** — Línea vegana que incluye postres de frutas, yogures MILBONA y quesos en lonchas. (No todos los supermercados tienen esta línea vegana).
 
-### Mercadona
+:::
+
+::: {.supermarket-section}
+
+### <i class="bi bi-shop"></i> Mercadona
 
 | Producto | Proteínas |
 |----------|-----------|
@@ -67,13 +118,21 @@ Algunos productos sin gluten de interés:
 
 El almidón de maíz sirve estupendamente como sustituto de huevo y para masas de croquetas, hamburguesas vegetales y bechamel.
 
-### Hipercor, Supermercado del Corte Inglés y Alcampo
+:::
+
+::: {.supermarket-section}
+
+### <i class="bi bi-shop"></i> Hipercor, Supermercado del Corte Inglés y Alcampo
 
 - **Masa de hojaldre ADPAN** (menos de 0,3 gr prot ×100g) — Solo se encuentra en las neveras de estos establecimientos.
 
-## Recomendación importante
+:::
+
+::: {.accent-box}
+### <i class="bi bi-exclamation-triangle"></i> Recomendación importante
 
 Revisar siempre los valores nutricionales de este tipo de productos sin gluten o veganos que consideramos "bajos en proteínas". Los fabricantes pueden variar sus ingredientes o la composición nutricional en algún momento y por tanto puede subir la cantidad de proteínas de forma inesperada.
+:::
 
 ---
 

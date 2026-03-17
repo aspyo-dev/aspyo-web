@@ -3,7 +3,11 @@ title: "Donar"
 toc: false
 ---
 
-::: {.page-intro}
+::: {.page-header}
+<i class="bi bi-heart-fill"></i>
+
+## Donar
+
 Tu donación nos ayuda a seguir apoyando a pacientes y familias con condiciones metabólicas congénitas.
 :::
 

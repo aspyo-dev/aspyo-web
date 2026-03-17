@@ -3,6 +3,14 @@ title: "Contactos"
 toc: false
 ---
 
+::: {.page-header}
+<i class="bi bi-telephone"></i>
+
+## Contactos
+
+Ponte en contacto con nosotros o síguenos en redes sociales.
+:::
+
 ::: {.contact-grid}
 
 ::: {.contact-card}

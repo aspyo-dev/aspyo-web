@@ -3,27 +3,70 @@ title: "Quién Somos"
 toc: false
 ---
 
-::: {.about-section}
+::: {.page-header}
+<i class="bi bi-people-fill"></i>
 
 ## Asociación de Fenilcetonuria y otros Trastornos Metabólicos de Andalucía Oriental
 
-Somos una **Asociación sin ánimo de lucro** fundada oficialmente el **08/05/2016**.
+Somos una **Asociación sin ánimo de lucro** fundada oficialmente el 08/05/2016, inscrita en el Ministerio del Interior el 18/10/2016.
+:::
 
-Inscrita en el **Ministerio del Interior** el **18/10/2016**.
+::: {.accent-box}
+### Nuestra razón de ser
 
 Nace de la necesidad de dar mayor calidad de vida a nuestros hijos con diferentes enfermedades metabólicas. La constituyen padres y madres que actúan como grupo de apoyo y comparten sus experiencias.
+:::
 
 ## Nuestra trayectoria
 
-A lo largo de estos años hemos:
+A lo largo de estos años hemos logrado mucho juntos:
 
-- **Conectado familias** que comparten experiencias y se apoyan mutuamente
-- **Organizado convivencias** para fortalecer los lazos entre las familias de la comunidad metabólica
-- **Colaborado estrechamente con el Hospital Materno Infantil** y los profesionales de referencia en causas importantes para la comunidad metabólica
+::: {.info-card-grid}
 
-Apoyamos activamente al hospital y a los pediatras de referencia en la organización de:
+::: {.info-card}
+[<i class="bi bi-heart-pulse"></i>]{.info-icon}
 
-- **Jornada Asombrosos** — encuentro anual de información entre familias y dietistas-nutricionistas
-- **Campamento de verano** — actividad para los niños y niñas de la asociación
+### Conectado familias
+
+Familias que comparten experiencias y se apoyan mutuamente en el día a día con condiciones metabólicas.
+:::
+
+::: {.info-card}
+[<i class="bi bi-calendar-heart"></i>]{.info-icon}
+
+### Organizado convivencias
+
+Encuentros para fortalecer los lazos entre las familias de la comunidad metabólica.
+:::
+
+::: {.info-card}
+[<i class="bi bi-hospital"></i>]{.info-icon}
+
+### Colaborado con el Hospital
+
+Trabajo estrecho con el Hospital Materno Infantil y los profesionales de referencia en causas importantes para la comunidad.
+:::
+
+:::
+
+## Actividades que apoyamos
+
+::: {.info-card-grid}
+
+::: {.info-card}
+[<i class="bi bi-lightbulb"></i>]{.info-icon}
+
+### Jornada Asombrosos
+
+Encuentro anual de información entre familias y dietistas-nutricionistas.
+:::
+
+::: {.info-card}
+[<i class="bi bi-sun"></i>]{.info-icon}
+
+### Campamento de verano
+
+Actividad para los niños y niñas de la asociación, apoyando activamente al hospital y a los pediatras de referencia.
+:::
 
 :::
