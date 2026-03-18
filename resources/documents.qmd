@@ -60,51 +60,6 @@ Tarjeta para informar en restaurantes y establecimientos de hostelería.
 
 :::
 
-## Enlaces de interés
-
-::: {.link-card-grid}
-
-::: {.link-card}
-[<i class="bi bi-globe-europe-africa"></i>]{.link-icon}
-
-#### EURORDIS
-
-Rare Diseases Europe
-
-[eurordis.org](https://www.eurordis.org/)
-:::
-
-::: {.link-card}
-[<i class="bi bi-heart"></i>]{.link-icon}
-
-#### FEDER
-
-Federación Española de Enfermedades Raras
-
-[enfermedades-raras.org](https://enfermedades-raras.org/)
-:::
-
-::: {.link-card}
-[<i class="bi bi-globe"></i>]{.link-icon}
-
-#### Orphanet
-
-Portal de enfermedades raras
-
-[orpha.net](https://www.orpha.net/)
-:::
-
-::: {.link-card}
-[<i class="bi bi-mortarboard"></i>]{.link-icon}
-
-#### SIEM
-
-Sociedad Española de Errores Innatos del Metabolismo
-
-[ae3com.eu](https://www.ae3com.eu/)
-:::
-
-:::
 
 ---
 
