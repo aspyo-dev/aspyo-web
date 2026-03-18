@@ -43,9 +43,9 @@ Material informativo para pacientes y familiares.
 
 ### Comunicación para comedores escolares
 
-Documento para facilitar la gestión del menú en el colegio.
+Documento para facilitar la gestión del menú en el colegio (PKU).
 
-*(próximamente)*
+[Descargar documento](docs/para el comedor escolar sobre pku.pdf)   
 :::
 
 ::: {.info-card}
