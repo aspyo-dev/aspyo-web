@@ -38,7 +38,7 @@ Todos los recién nacidos en España tienen derecho al cribado neonatal (prueba 
 - El programa es **gratuito y universal** para todos los recién nacidos en Andalucía.
 
 ::: {.legal-ref}
-**Base legal:** [Orden SSI/2065/2014](https://www.sanidad.gob.es/areas/promocionPrevencion/cribado/cribadoNeonatal/enfermedadesEndocrinoMetabolicas/home.htm) — establece el mínimo estatal de 7 enfermedades. | [Programa de Cribado Neonatal de Andalucía](https://www.juntadeandalucia.es/servicios/publicaciones/detalle/465601.html) — amplía la detección muy por encima del mínimo estatal.
+**Base legal:** [Orden SSI/2065/2014](https://www.sanidad.gob.es/areas/promocionPrevencion/cribado/cribadoNeonatal/enfermedadesEndocrinoMetabolicas/home.htm) — estableció el mínimo estatal en 7 enfermedades, ampliado a **11** por la [Orden SND/606/2024](https://www.boe.es/buscar/doc.php?id=BOE-A-2024-12290). | [Programa de Cribado Neonatal de Andalucía](https://www.juntadeandalucia.es/servicios/publicaciones/detalle/465601.html) — amplía la detección muy por encima del mínimo estatal.
 :::
 
 :::
@@ -151,7 +151,7 @@ Los pacientes con enfermedades metabólicas congénitas tienen derecho a ser ate
 
 Los niños con enfermedades metabólicas tienen derecho a adaptaciones en el entorno escolar:
 
-- **Comedor escolar:** Derecho a menú adaptado (bajo en proteínas, sin determinados aminoácidos, etc.) según la prescripción médica.
+- **Comedor escolar:** Derecho a menú adaptado (bajo en proteínas, sin determinados aminoácidos, etc.) según la prescripción médica. La regulación específica del comedor es competencia autonómica.
 - **Adaptaciones curriculares** si la enfermedad afecta al rendimiento o requiere ausencias (hospitalizaciones, revisiones médicas).
 - **Atención educativa domiciliaria** durante períodos de hospitalización o convalecencia.
 - Los centros deben contar con información sobre la enfermedad del alumno y un protocolo de actuación en caso de crisis metabólica.
@@ -188,7 +188,7 @@ Aprobado en diciembre de 2025, con **109 medidas** y una inversión de más de *
 |---|---|
 | Suplementos nutricionales financiados y sin copago (fórmulas de aminoácidos, módulos) | RD 1030/2006, RD 1205/2010 |
 | Alimentos bajos en proteínas (pan, pasta, etc.): **NO financiados** | — |
-| Cribado neonatal gratuito (38 enfermedades en Andalucía) | Orden SSI/2065/2014 |
+| Cribado neonatal gratuito (38 enfermedades en Andalucía) | Orden SSI/2065/2014, Orden SND/606/2024 |
 | Prestación CUME: reducir jornada y cobrar (requiere hospitalización previa) | RD 1148/2011, RD 677/2023 |
 | 5 días de permiso retribuido por hospitalización de familiar | RDL 5/2023 |
 | Reducción de jornada con protección frente a despido | Estatuto Trabajadores art. 37.6 |
