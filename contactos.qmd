@@ -26,7 +26,7 @@ Ponte en contacto con nosotros o síguenos en redes sociales.
 
 ### Página web
 
-[aspyo.org](https://aspyo-dev.github.io/aspyo-web)
+[aspyo.es](https://aspyo.es)
 :::
 
 ::: {.contact-card}

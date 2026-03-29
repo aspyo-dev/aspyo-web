@@ -35,7 +35,7 @@ Escríbenos a aspyoandalucia.oriental@gmail.com para solicitar una copia.
 
 Material informativo para pacientes y familiares.
 
-[Descargar tríptico](docs/TRÍPTICO 2023.pdf)
+[Ver tríptico online](triptico.qmd) · [Descargar PDF (2023)](docs/TRÍPTICO 2023.pdf)
 :::
 
 ::: {.info-card}

@@ -1,0 +1,782 @@
+---
+title: "Tríptico informativo ASPYO"
+toc: false
+page-layout: custom
+format:
+  html:
+    minimal: true
+    embed-resources: false
+---
+
+```{=html}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<style>
+  /* === Variables === */
+  :root {
+    --green-dark: #1a6b2a;
+    --green-mid: #2c8c3c;
+    --green-light: #4CAF50;
+    --green-pale: #e8f5e9;
+    --accent-warm: #ff8f00;
+    --text-dark: #1a1a2e;
+    --text-muted: #5a5a6e;
+    --white: #ffffff;
+  }
+
+  /* === Reset === */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-dark);
+    background: #f0f0f0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Nunito', sans-serif;
+    color: var(--text-dark);
+  }
+
+  /* === Trifold Page === */
+  .trifold-page {
+    width: 297mm;
+    height: 210mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: var(--white);
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* === Panel base === */
+  .panel {
+    padding: 12mm 8mm;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* ===================== */
+  /* PAGE 1 — OUTSIDE      */
+  /* ===================== */
+
+  /* Panel 1: Back flap (Necesidades) */
+  .panel-needs {
+    background: var(--white);
+    border-right: 1px dashed #ccc;
+  }
+
+  .panel-needs h3 {
+    color: var(--green-dark);
+    font-size: 11pt;
+    font-weight: 800;
+    margin-bottom: 6mm;
+    padding-bottom: 2mm;
+    border-bottom: 2px solid var(--green-pale);
+  }
+
+  .need-item {
+    margin-bottom: 4mm;
+    font-size: 8pt;
+    line-height: 1.5;
+    color: var(--text-dark);
+    padding-left: 4mm;
+    position: relative;
+  }
+
+  .need-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+    background: var(--green-mid);
+    border-radius: 50%;
+  }
+
+  .panel-needs .bank-box {
+    background: var(--green-pale);
+    border-radius: 8px;
+    padding: 4mm;
+    margin-top: auto;
+    font-size: 7.5pt;
+    line-height: 1.6;
+    border-left: 3px solid var(--green-mid);
+  }
+
+  .panel-needs .bank-box strong {
+    color: var(--green-dark);
+    display: block;
+    margin-bottom: 1mm;
+    font-size: 8pt;
+  }
+
+  .panel-needs .contact-phones {
+    margin-top: 4mm;
+    font-size: 7.5pt;
+    line-height: 1.7;
+  }
+
+  .panel-needs .contact-phones strong {
+    color: var(--green-dark);
+    display: block;
+    margin-bottom: 1mm;
+  }
+
+  /* Panel 2: Back cover (Misión) */
+  .panel-mission {
+    background: linear-gradient(180deg, var(--white) 0%, var(--green-pale) 100%);
+    border-right: 1px dashed #ccc;
+  }
+
+  .panel-mission h3 {
+    color: var(--green-dark);
+    font-size: 11pt;
+    font-weight: 800;
+    margin-bottom: 5mm;
+    text-align: center;
+  }
+
+  .panel-mission .origin-text {
+    font-size: 8pt;
+    line-height: 1.55;
+    color: var(--text-dark);
+    margin-bottom: 4mm;
+  }
+
+  .panel-mission .stat-highlight {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    color: var(--white);
+    border-radius: 10px;
+    padding: 4mm;
+    text-align: center;
+    margin: 4mm 0;
+  }
+
+  .panel-mission .stat-highlight .stat-number {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18pt;
+    font-weight: 800;
+    display: block;
+  }
+
+  .panel-mission .stat-highlight .stat-label {
+    font-size: 7pt;
+    opacity: 0.9;
+  }
+
+  .panel-mission .conditions-title {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin: 4mm 0 2mm;
+  }
+
+  .panel-mission .conditions-list {
+    font-size: 7.5pt;
+    line-height: 1.55;
+    color: var(--text-muted);
+    columns: 2;
+    column-gap: 3mm;
+  }
+
+  .panel-mission .conditions-list span {
+    display: block;
+    padding: 0.5mm 0;
+  }
+
+  .panel-mission .visibility-box {
+    background: var(--white);
+    border: 1.5px solid var(--green-mid);
+    border-radius: 8px;
+    padding: 3mm 4mm;
+    margin-top: auto;
+    font-size: 7.5pt;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--green-dark);
+    font-weight: 600;
+  }
+
+  /* Panel 3: Front cover */
+  .panel-cover {
+    background: linear-gradient(160deg, var(--green-dark) 0%, var(--green-mid) 50%, var(--green-light) 100%);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel-cover::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -30%;
+    width: 180px;
+    height: 180px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+
+  .panel-cover::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+    width: 140px;
+    height: 140px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 50%;
+  }
+
+  .panel-cover * { position: relative; z-index: 1; }
+
+  .panel-cover .logo-img {
+    width: 52mm;
+    height: 52mm;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    margin-bottom: 8mm;
+    object-fit: cover;
+  }
+
+  .panel-cover h1 {
+    font-size: 14pt;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.25;
+    margin-bottom: 4mm;
+    max-width: 80mm;
+  }
+
+  .panel-cover .founding-info {
+    font-size: 7pt;
+    opacity: 0.8;
+    margin-bottom: 5mm;
+    line-height: 1.5;
+  }
+
+  .panel-cover .cover-contact {
+    font-size: 6.5pt;
+    opacity: 0.75;
+    line-height: 1.6;
+    margin-top: auto;
+    padding-top: 4mm;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    width: 80%;
+  }
+
+  .panel-cover .cover-contact i {
+    margin-right: 1mm;
+  }
+
+  /* ===================== */
+  /* PAGE 2 — INSIDE       */
+  /* ===================== */
+
+  /* Panel 4: Who suffers */
+  .panel-who {
+    background: var(--white);
+    border-right: 1px dashed #ccc;
+  }
+
+  .panel-who h3 {
+    color: var(--green-dark);
+    font-size: 11pt;
+    font-weight: 800;
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+    border-bottom: 2px solid var(--green-pale);
+  }
+
+  .panel-who h4 {
+    color: var(--green-dark);
+    font-size: 9pt;
+    font-weight: 700;
+    margin: 4mm 0 2mm;
+  }
+
+  .panel-who p {
+    font-size: 8pt;
+    line-height: 1.55;
+    color: var(--text-dark);
+    margin-bottom: 3mm;
+  }
+
+  .panel-who .detection-box {
+    background: var(--green-pale);
+    border-radius: 8px;
+    padding: 4mm;
+    margin: 3mm 0;
+    border-left: 3px solid var(--green-mid);
+  }
+
+  .panel-who .detection-box strong {
+    color: var(--green-dark);
+    font-size: 8.5pt;
+    display: block;
+    margin-bottom: 1mm;
+  }
+
+  .panel-who .detection-box p {
+    margin: 0;
+    font-size: 7.5pt;
+  }
+
+  /* Panel 5: Treatment */
+  .panel-treatment {
+    background: linear-gradient(180deg, var(--white) 0%, var(--green-pale) 100%);
+    border-right: 1px dashed #ccc;
+  }
+
+  .panel-treatment h3 {
+    color: var(--green-dark);
+    font-size: 11pt;
+    font-weight: 800;
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+    border-bottom: 2px solid var(--green-pale);
+  }
+
+  .panel-treatment p {
+    font-size: 8pt;
+    line-height: 1.55;
+    color: var(--text-dark);
+    margin-bottom: 3mm;
+  }
+
+  .panel-treatment .toxin-warning {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    color: var(--white);
+    border-radius: 8px;
+    padding: 3mm 4mm;
+    font-size: 7.5pt;
+    text-align: center;
+    margin: 3mm 0;
+    line-height: 1.45;
+  }
+
+  .panel-treatment h4 {
+    color: var(--green-dark);
+    font-size: 9pt;
+    font-weight: 700;
+    margin: 3mm 0 2mm;
+  }
+
+  .panel-treatment .food-restricted {
+    background: var(--green-pale);
+    border-radius: 8px;
+    padding: 3mm 4mm;
+    margin: 2mm 0;
+    border-left: 3px solid var(--green-mid);
+  }
+
+  .panel-treatment .food-restricted .food-category {
+    font-size: 7.5pt;
+    line-height: 1.5;
+    color: var(--text-dark);
+    margin-bottom: 1mm;
+  }
+
+  .panel-treatment .food-restricted .food-category strong {
+    color: var(--green-dark);
+  }
+
+  .panel-treatment .treatment-note {
+    font-size: 7.5pt;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: auto;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  /* Panel 6: Daily life */
+  .panel-daily {
+    background: var(--white);
+  }
+
+  .panel-daily h3 {
+    color: var(--green-dark);
+    font-size: 11pt;
+    font-weight: 800;
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+    border-bottom: 2px solid var(--green-pale);
+  }
+
+  .panel-daily .daily-item {
+    margin-bottom: 3mm;
+    padding-left: 6mm;
+    position: relative;
+    font-size: 8pt;
+    line-height: 1.5;
+    color: var(--text-dark);
+  }
+
+  .panel-daily .daily-item i {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--green-mid);
+    font-size: 9pt;
+  }
+
+  .panel-daily .daily-item strong {
+    color: var(--green-dark);
+  }
+
+  .panel-daily .cta-box {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    color: var(--white);
+    border-radius: 10px;
+    padding: 5mm;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel-daily .cta-box::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    right: -20%;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+
+  .panel-daily .cta-box * { position: relative; z-index: 1; }
+
+  .panel-daily .cta-box h4 {
+    color: var(--white);
+    font-size: 10pt;
+    font-weight: 800;
+    margin-bottom: 2mm;
+  }
+
+  .panel-daily .cta-box p {
+    font-size: 7.5pt;
+    opacity: 0.9;
+    margin: 0;
+    line-height: 1.45;
+  }
+
+  .panel-daily .cta-box .cta-button {
+    display: inline-block;
+    background: var(--accent-warm);
+    color: var(--white);
+    padding: 2mm 6mm;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 8pt;
+    margin-top: 3mm;
+    text-decoration: none;
+  }
+
+  /* === Page label (screen only) === */
+  .page-label {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11pt;
+    color: #888;
+    margin: 30px auto 5px;
+    max-width: 297mm;
+  }
+
+  .page-label:first-of-type {
+    margin-top: 10px;
+  }
+
+  /* === Screen instructions === */
+  .print-instructions {
+    max-width: 297mm;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background: var(--green-pale);
+    border-radius: 10px;
+    border-left: 4px solid var(--green-mid);
+    font-size: 10pt;
+    line-height: 1.6;
+    color: var(--text-dark);
+  }
+
+  .print-instructions h3 {
+    color: var(--green-dark);
+    font-size: 12pt;
+    margin-bottom: 8px;
+  }
+
+  .print-instructions ul {
+    padding-left: 18px;
+    margin: 5px 0;
+  }
+
+  .print-instructions .btn-print {
+    display: inline-block;
+    background: var(--green-mid);
+    color: var(--white);
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 10pt;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    transition: background 0.2s;
+  }
+
+  .print-instructions .btn-print:hover {
+    background: var(--green-dark);
+  }
+
+  /* ===================== */
+  /* PRINT STYLES          */
+  /* ===================== */
+  @media print {
+    body {
+      background: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .print-instructions,
+    .page-label {
+      display: none !important;
+    }
+
+    .trifold-page {
+      width: 297mm;
+      height: 210mm;
+      margin: 0;
+      box-shadow: none;
+      page-break-after: always;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .trifold-page:last-child {
+      page-break-after: avoid;
+    }
+
+    @page {
+      size: A4 landscape;
+      margin: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Print instructions (screen only) -->
+<div class="print-instructions">
+  <h3><i class="bi bi-printer"></i> Instrucciones de impresión</h3>
+  <ul>
+    <li>Imprime en <strong>A4 horizontal (landscape)</strong></li>
+    <li>Activa la impresión a <strong>doble cara</strong> (volteo por el borde largo)</li>
+    <li>Asegúrate de que la opción <strong>"Gráficos de fondo"</strong> esté activada</li>
+    <li>Dobla en tres partes iguales: la portada (panel verde) queda delante</li>
+  </ul>
+  <button class="btn-print" onclick="window.print()">
+    <i class="bi bi-printer"></i> Imprimir tríptico
+  </button>
+</div>
+
+<!-- =============================== -->
+<!-- PAGE 1: OUTSIDE (when folded)   -->
+<!-- =============================== -->
+<p class="page-label">Página 1 — Exterior</p>
+
+<div class="trifold-page">
+
+  <!-- Panel 1: Necesidades (back flap) -->
+  <div class="panel panel-needs">
+    <h3>Necesidades para mejorar</h3>
+
+    <div class="need-item">
+      Dar a conocer la enfermedad en la sociedad. Información y concienciación para integrarlas en la vida diaria.
+    </div>
+    <div class="need-item">
+      Promover acciones para la obtención de fondos para las investigaciones tan necesarias y así disminuir los riesgos con los que se convive diariamente.
+    </div>
+    <div class="need-item">
+      Adquirir alimentos aproteicos más económicos, ya que por la poca demanda son altamente costosos.
+    </div>
+
+    <div class="bank-box">
+      <strong><i class="bi bi-bank"></i> Datos bancarios</strong>
+      IBAN: ES46 2103 0132 3100 3001 4011<br>
+      Asociación de Fenilcetonuria y OTM<br>
+      NIF: G93519205<br>
+      29018 Málaga
+    </div>
+
+    <div class="contact-phones">
+      <strong><i class="bi bi-telephone"></i> Contacto</strong>
+      Lidia Maljarenko: 666 450 554<br>
+      Selene Gallo: 640 684 973
+    </div>
+  </div>
+
+  <!-- Panel 2: Misión (back cover) -->
+  <div class="panel panel-mission">
+    <h3>¿Por qué existimos?</h3>
+
+    <p class="origin-text">
+      Nace de la necesidad de dar mayor calidad a nuestros hijos con diferentes enfermedades metabólicas. La constituyen padres y madres que actúan como grupo de apoyo y que comparten sus experiencias.
+    </p>
+
+    <p class="origin-text">
+      Son enfermedades raras o más adecuadamente expresada como <em>Enfermedades Poco Frecuentes</em> — se denominan así cuando las padecen 5 personas de cada 10.000 habitantes.
+    </p>
+
+    <div class="stat-highlight">
+      <span class="stat-number">200</span>
+      <span class="stat-label">niños afectados en Andalucía por algún tipo de enfermedad metabólica</span>
+    </div>
+
+    <p class="conditions-title"><i class="bi bi-list-check"></i> Enfermedades metabólicas:</p>
+    <div class="conditions-list">
+      <span>Fenilcetonuria (PKU)</span>
+      <span>Cetonuria</span>
+      <span>Homocistinuria</span>
+      <span>Acidemia glutárica</span>
+      <span>Acidemia propiónica</span>
+      <span>Tirosinemia tipo 1</span>
+      <span>Ac. org. metilmalónica</span>
+      <span>Citrulinemia tipo 1</span>
+      <span>Aciduria argininosuccínica</span>
+    </div>
+
+    <div class="visibility-box">
+      <i class="bi bi-eye"></i> Queremos hacer visibles estos trastornos metabólicos para contribuir a un mayor bienestar de quienes los padecen.
+    </div>
+  </div>
+
+  <!-- Panel 3: Portada (front cover) -->
+  <div class="panel panel-cover">
+    <img src="../images/logo.jpeg" alt="ASPYO Logo" class="logo-img">
+    <h1>Asociación de Fenilcetonuria y OTM de Andalucía Oriental</h1>
+    <p class="founding-info">
+      Asociación sin ánimo de lucro<br>
+      Fundada oficialmente el 08/05/2016<br>
+      Inscrita en el Ministerio del Interior el 18/10/2016
+    </p>
+    <div class="cover-contact">
+      <i class="bi bi-envelope"></i> aspyoandalucia.oriental@gmail.com<br>
+      <i class="bi bi-globe2"></i> aspyo.es<br>
+      <i class="bi bi-facebook"></i> ASPYO &nbsp; <i class="bi bi-instagram"></i> asp.yo &nbsp; <i class="bi bi-twitter-x"></i> ASPYO_tweet
+    </div>
+  </div>
+
+</div>
+
+<!-- =============================== -->
+<!-- PAGE 2: INSIDE (when unfolded)  -->
+<!-- =============================== -->
+<p class="page-label">Página 2 — Interior</p>
+
+<div class="trifold-page">
+
+  <!-- Panel 4: Quién la sufre -->
+  <div class="panel panel-who">
+    <h3><i class="bi bi-people"></i> Quién la sufre</h3>
+
+    <p>Las enfermedades metabólicas congénitas afectan desde el nacimiento. Es necesario un control alimenticio exhaustivo de aquellos alimentos que contienen los aminoácidos que son perjudiciales.</p>
+
+    <div class="detection-box">
+      <strong><i class="bi bi-droplet"></i> Cómo se detecta</strong>
+      <p>Por un análisis de sangre. Generalmente se detecta con la <strong>"prueba del talón"</strong> desde recién nacido. Un tratamiento precoz es de gran importancia.</p>
+    </div>
+
+    <h4>El descubrimiento y tratamiento precoz evita:</h4>
+
+    <div class="need-item">Retraso en el desarrollo mental</div>
+    <div class="need-item">Retraso en el desarrollo psicomotriz</div>
+    <div class="need-item">Retraso en el desarrollo físico</div>
+    <p style="font-size: 8pt; font-weight: 600; color: var(--green-dark); margin-top: 2mm;">Produciendo daños irreparables</p>
+  </div>
+
+  <!-- Panel 5: Tratamiento -->
+  <div class="panel panel-treatment">
+    <h3><i class="bi bi-capsule"></i> Tratamiento</h3>
+
+    <p>La acumulación de aminoácidos en sangre, orina, tejidos y en el cerebro generan <strong>toxinas</strong> en el cuerpo.</p>
+
+    <div class="toxin-warning">
+      Produciendo daños irreparables en su desarrollo psíquico y físico
+    </div>
+
+    <p>La restricción es para <strong>toda la vida</strong>: diversos aminoácidos y la aplicación de un tratamiento (medicamentos o preparados que aportan los nutrientes que no se ingieren) contribuye a una vida saludable.</p>
+
+    <h4><i class="bi bi-x-circle"></i> Alimentos restringidos / prohibidos</h4>
+
+    <div class="food-restricted">
+      <div class="food-category"><strong>Proteínas animales:</strong> carnes, pescados, huevos, leche y derivados</div>
+      <div class="food-category"><strong>Cereales y derivados:</strong> pasta, pan, arroz, cereales y harinas</div>
+      <div class="food-category"><strong>Otros:</strong> legumbres y frutos secos</div>
+    </div>
+
+    <p class="treatment-note">
+      Cada enfermedad metabólica tiene sus propias restricciones alimentarias específicas.
+    </p>
+  </div>
+
+  <!-- Panel 6: Vida diaria -->
+  <div class="panel panel-daily">
+    <h3><i class="bi bi-calendar-heart"></i> La vida diaria</h3>
+
+    <div class="daily-item">
+      <i class="bi bi-check-circle-fill"></i>
+      <strong>Control de proteínas:</strong> Cada día hay que controlar la ingesta. Algunos toman 5g diarios, otros 10g, 20g… dependiendo de la tolerancia de cada persona.
+    </div>
+
+    <div class="daily-item">
+      <i class="bi bi-check-circle-fill"></i>
+      <strong>Alimentos especiales:</strong> En la dieta se incluyen alimentos especiales bajos en proteínas, siendo costosa su adquisición.
+    </div>
+
+    <div class="daily-item">
+      <i class="bi bi-check-circle-fill"></i>
+      <strong>Pesar todo:</strong> El peso llega a ser nuestro amigo pues todo hay que pesarlo y detectar las proteínas de cada alimento.
+    </div>
+
+    <div class="daily-item">
+      <i class="bi bi-check-circle-fill"></i>
+      <strong>Controles cada 15 días:</strong> Se hacen controles en sangre que mandamos al laboratorio para evaluar la salud.
+    </div>
+
+    <div class="daily-item">
+      <i class="bi bi-check-circle-fill"></i>
+      <strong>Enfermedades comunes:</strong> Un resfriado, fiebre o cualquier virus eleva los niveles, llegando a descompensaciones e inclusive ingresos hospitalarios.
+    </div>
+
+    <div class="cta-box">
+      <h4><i class="bi bi-heart-fill"></i> ¿Quieres colaborar?</h4>
+      <p>Tu ayuda marca la diferencia para las familias que conviven con estas enfermedades cada día.</p>
+      <span class="cta-button"><i class="bi bi-heart-fill"></i> Dona ahora</span>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+```
