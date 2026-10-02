@@ -31,11 +31,11 @@ Escríbenos a aspyoandalucia.oriental@gmail.com para solicitar una copia.
 ::: {.info-card}
 [<i class="bi bi-file-pdf"></i>]{.info-icon}
 
-### Tríptico informativo
+### Información para familias con un nuevo diagnóstico
 
-Material informativo para pacientes y familiares.
+Tríptico para familias que acaban de recibir el diagnóstico de una enfermedad metabólica.
 
-[Ver tríptico online](triptico.qmd) · [Descargar PDF (2023)](docs/TRÍPTICO 2023.pdf)
+[Descargar PDF](docs/info para familias con un nuevo diagnostico - oct 2026.pdf)
 :::
 
 ::: {.info-card}
